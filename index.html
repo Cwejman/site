@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jona Cwejman</title>
+<meta name="description" content="Jona Cwejman, maker. Download the CV.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #F7F4EE; --ink: #22211E; --soft: #75716A; --line: #D3CCBF; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161513; --ink: #ECE8E0; --soft: #9A958B; --line: #3A3731; } }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    display: grid; place-items: center; padding: 24px;
+    background: var(--bg); color: var(--ink);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+  }
+  main { text-align: center; }
+  h1 { font-weight: 500; font-size: clamp(32px, 7vw, 56px); letter-spacing: -0.03em; margin: 0 0 32px; }
+  a.cv {
+    display: inline-block; padding: 12px 22px; border: 1px solid var(--line); border-radius: 999px;
+    color: var(--ink); text-decoration: none; font-size: 15px;
+    transition: border-color .15s, background .15s;
+  }
+  a.cv:hover, a.cv:focus-visible { border-color: var(--ink); outline: none; }
+  p { margin: 16px 0 0; color: var(--soft); font-size: 13px; }
+  p a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jona Cwejman</h1>
+  <a class="cv" href="/cv/jona-cwejman-cv.pdf" download>Download CV</a>
+  <p><a href="https://github.com/Cwejman">github.com/Cwejman</a></p>
+</main>
+</body>
+</html>
